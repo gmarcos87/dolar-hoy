@@ -1,0 +1,27 @@
+{
+  "name": "dolar-hoy",
+  "version": "1.0.0",
+  "description": "Busca el valor del dolar en Argentina",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gmarcos87/dolar-hoy.git"
+  },
+  "keywords": [
+    "dolar",
+    "Argentina",
+    "cotización"
+  ],
+  "author": "Marcos Gutierrez <marcos@pixxel.com.ar> (http://pixxel.com.ar)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gmarcos87/dolar-hoy/issues"
+  },
+  "homepage": "https://github.com/gmarcos87/dolar-hoy#readme",
+  "dependencies": {
+    "node-fetch": "^1.6.0"
+  }
+}
