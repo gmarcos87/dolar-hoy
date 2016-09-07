@@ -22,7 +22,7 @@ dolar.fetch(callback)
 ```
 
 ## Respuesta
-El api que viene por defecto otorga un JSON de la sigiente manera:
-```json
+El api que viene por defecto otorga un objeto de la siguiente forma:
+```javascript
 { libre: '15.25', blue: '15.30' }
 ```
