@@ -1,10 +1,9 @@
-var dolar = require('./index');
+var dolar = require("./index");
 
 var cotizacion = {};
 
 function cambiarCotizacion(data){
-  cotizacion = data
-  console.log(cotizacion)
+  cotizacion = data;
 }
 
-dolar.fetch(cambiarCotizacion)
+dolar.fetch(cambiarCotizacion);
