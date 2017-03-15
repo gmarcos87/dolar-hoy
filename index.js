@@ -10,7 +10,9 @@ var app = {
       .then(function(res) {
           return res.json();
       }).then(function(json) {
-          cb(json);
+          cb(json,null);
+      }).catch(function(err){
+          cb(null,err);
       });
   }
 };
