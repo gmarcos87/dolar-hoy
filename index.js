@@ -1,11 +1,11 @@
-var fetch = require('node-fetch')
-var apiUrl = 'http://ws.geeklab.com.ar/dolar/get-dolar-json.php'
+var fetch = require("node-fetch");
+var apiUrl = "http://ws.geeklab.com.ar/dolar/get-dolar-json.php";
 
 var app = {
-  init: function(api){
+  init(api){
     apiUrl = api;
   },
-  fetch: function(cb){
+  fetch(cb){
     fetch(apiUrl)
       .then(function(res) {
           return res.json();
