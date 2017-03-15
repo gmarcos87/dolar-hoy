@@ -12,7 +12,7 @@ var app = {
       }).then(function(json) {
           cb(json,null);
       }).catch(function(err){
-          cb(null,err)
+          cb(null,err);
       });
   }
 };
